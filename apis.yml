@@ -1,7 +1,31 @@
 aid: elastica
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/elastica.png
 name: Elastica
-description: Elastica is a company surfaced as a portfolio company of mayfield and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Elastica was a Silicon Valley cloud security startup that pioneered the Cloud
+  Access Security Broker (CASB) category, using data science and machine
+  learning to give enterprises visibility into and control over Shadow IT and
+  sanctioned SaaS applications. Its CloudSOC platform combined an API-based
+  control mode (connecting directly to cloud apps such as Office 365, Box,
+  Salesforce, and Google Workspace) with an inline gateway mode for
+  data-loss-prevention, threat detection, and compliance. Backed by Mayfield,
+  Pelion Venture Partners, and Third Point Ventures, Elastica was acquired by
+  Blue Coat Systems for $280 million in November 2015; Blue Coat (with Elastica
+  and Perspecsys) was in turn acquired by Symantec in 2016, where the technology
+  became the Symantec CloudSOC CASB, later part of Broadcom's enterprise
+  security portfolio. Elastica no longer operates as an independent company and
+  publishes no active public developer surface, API, or SDK.
 url: https://raw.githubusercontent.com/api-evangelist/elastica/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +33,40 @@ x-backed-by:
 - mayfield
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by:
+- Blue Coat Systems (2015, $280M)
+- Symantec (2016, via Blue Coat; became CloudSOC CASB)
+- Broadcom (2019, via Symantec Enterprise)
+x-enrichment-note: >-
+  Enrichment pipeline ran 2026-07-19. Elastica is a defunct, acquired company
+  with no independent public developer surface (no API, OpenAPI, SDK, package,
+  event, or security.txt surface). All artifact recipes are N/A; no artifacts
+  were fabricated. Historical elastica.* domains now resolve to unrelated
+  parked/third-party owners and are deliberately NOT associated with this
+  profile.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Security
+- Cloud Security
+- CASB
+- Cloud Access Security Broker
+- Shadow IT
+- Data Loss Prevention
+- SaaS Security
+- Machine Learning
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
