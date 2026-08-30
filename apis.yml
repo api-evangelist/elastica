@@ -92,3 +92,9 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/symantec/
+  name: Symantec
+  x-relationship: acquired
+  x-evidence: "Backed by Mayfield, Pelion Venture Partners, and Third Point Ventures, Elastica was acquired by Blue Coat Systems for $280 million in November 2015; Blue Coat (with Elastica and Perspecsys) was in turn acquired by Symantec in 2016, where th"
