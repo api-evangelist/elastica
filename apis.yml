@@ -68,7 +68,7 @@ tags:
 - Shadow IT
 - Data Loss Prevention
 - SaaS Security
-- Machine-Learning
+- Machine Learning
 - Acquired
 tags_raw:
 - Company
@@ -81,6 +81,7 @@ tags_raw:
 - SaaS Security
 - Machine Learning
 - Acquired
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
